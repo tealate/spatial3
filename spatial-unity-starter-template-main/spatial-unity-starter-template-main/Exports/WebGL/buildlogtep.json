@@ -1,43 +1,43 @@
 {
-"Date": "2024/04/22 13:36:48",
+"Date": "2024/06/05 12:28:06",
 "UnityVersion": "2021.3.21f1",
 "com.unity.scriptablebuildpipeline": "1.21.1",
 "traceEvents": [
-{"name": "AssetDatabase.SaveAssets", "ph": "X", "dur": 1091.1, "tid": 1, "ts": 124, "pid": 1}
-,{"name": "SwitchToBuildPlatform", "ph": "X", "dur": 21.2999999999997, "tid": 1, "ts": 3000, "pid": 1}
-,{"name": "RebuildSpriteAtlasCache", "ph": "X", "dur": 1.49999999999961, "tid": 1, "ts": 3053, "pid": 1}
-,{"name": "BuildPlayerScripts", "ph": "X", "dur": 2464486.6, "tid": 1, "ts": 3077, "pid": 1}
-,{"name": "PostScriptsCallback", "ph": "X", "dur": 2.59999999980209, "tid": 1, "ts": 2467690, "pid": 1}
-,{"name": "CalculateSceneDependencyData", "ph": "X", "dur": 2197426.1, "tid": 1, "ts": 2467740, "pid": 1}
-,{"name": "Calculate Scene Dependencies", "ph": "X", "dur": 2197423.2, "tid": 1, "ts": 2467742, "pid": 1, "args": {"0":"ad1ce70d586544a47b9202d63ee6b2b1"}}
-,{"name": "CalculateCustomDependencyData", "ph": "X", "dur": 3.3000000003085, "tid": 1, "ts": 4665307, "pid": 1}
-,{"name": "CalculateAssetDependencyData", "ph": "X", "dur": 4.60000000020955, "tid": 1, "ts": 4665379, "pid": 1}
-,{"name": "Gathering Cache Entries to Load", "ph": "X", "dur": 1.19999999969878, "tid": 1, "ts": 4665382, "pid": 1}
-,{"name": "Gathering Cache Entries to Save", "ph": "X", "dur": 0.399999999899592, "tid": 1, "ts": 4665383, "pid": 1}
-,{"name": "StripUnusedSpriteSources", "ph": "X", "dur": 0.700000000506407, "tid": 1, "ts": 4665425, "pid": 1}
-,{"name": "PostDependencyCallback", "ph": "X", "dur": 0.29999999969732, "tid": 1, "ts": 4665455, "pid": 1}
-,{"name": "GenerateBundlePacking", "ph": "X", "dur": 298.300000000381, "tid": 1, "ts": 4665491, "pid": 1}
-,{"name": "GenerateBundleCommands", "ph": "X", "dur": 16073.1999999998, "tid": 1, "ts": 4665843, "pid": 1}
-,{"name": "GenerateSubAssetPathMaps", "ph": "X", "dur": 1.00000000020373, "tid": 1, "ts": 4682009, "pid": 1}
-,{"name": "GenerateBundleMaps", "ph": "X", "dur": 141.299999999319, "tid": 1, "ts": 4682038, "pid": 1}
-,{"name": "Temporary Map Creations", "ph": "X", "dur": 63.6999999996988, "tid": 1, "ts": 4682038, "pid": 1}
-,{"name": "Populate BuildReferenceMaps", "ph": "X", "dur": 1.60000000050786, "tid": 1, "ts": 4682102, "pid": 1}
-,{"name": "Populate BuildUsageTagSet", "ph": "X", "dur": 75.0000000007276, "tid": 1, "ts": 4682104, "pid": 1}
-,{"name": "PostPackingCallback", "ph": "X", "dur": 0.399999999899592, "tid": 1, "ts": 4682215, "pid": 1}
-,{"name": "WriteSerializedFiles", "ph": "X", "dur": 2554446.7, "tid": 1, "ts": 4682267, "pid": 1}
-,{"name": "RunCachedOperation", "ph": "X", "dur": 2554439.6, "tid": 1, "ts": 4682274, "pid": 1, "args": {"0":"Total Entries: 1, Processed: 1, Cached: 0"}}
-,{"name": "Process Entries", "ph": "X", "dur": 2554423.7, "tid": 1, "ts": 4682275, "pid": 1}
-,{"name": "Writing SceneBundleWriteOperation", "ph": "X", "dur": 2401347.9, "tid": 1, "ts": 4682367, "pid": 1, "args": {"0":"CAB-7ca3da47d9a4aaa0317e5621631e2596.sharedAssets"}}
-,{"name": "Process Cached Entries", "ph": "X", "dur": 1.100000000406, "tid": 1, "ts": 7236700, "pid": 1}
-,{"name": "ArchiveAndCompressBundles", "ph": "X", "dur": 6147131.1, "tid": 1, "ts": 7236860, "pid": 1}
-,{"name": "CreateWorkItems", "ph": "X", "dur": 12.99999999992, "tid": 1, "ts": 7236864, "pid": 1}
-,{"name": "CopyingCachedFiles", "ph": "X", "dur": 0.399999999899592, "tid": 1, "ts": 7236878, "pid": 1}
-,{"name": "ArchiveItems", "ph": "X", "dur": 6147007.2, "tid": 1, "ts": 7236878, "pid": 1, "args": {"0":"Archiving 1 Bundles"}}
-,{"name": "ArchiveSingleItem", "ph": "X", "dur": 6146806.3, "tid": 402, "ts": 7236904, "pid": 1, "args": {"0":"nahahari_0"}}
-,{"name": "Copying From Cache", "ph": "X", "dur": 13822.1000000003, "tid": 402, "ts": 13369888, "pid": 1, "args": {"0":"C:\\Users\\yoshida_kaito\\Documents\\GitHub\\spatial\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\Temp\\ContentBuildData\\nahahari_0 -> C:\\Users\\yoshida_kaito\\Documents\\GitHub\\spatial\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\Exports\\WebGL\\nahahari_0"}}
-,{"name": "PostArchiveProcessing", "ph": "X", "dur": 81.000000000131, "tid": 1, "ts": 13383906, "pid": 1}
-,{"name": "AppendBundleHash", "ph": "X", "dur": 1.0999999994965, "tid": 1, "ts": 13384096, "pid": 1}
-,{"name": "GenerateLinkXml", "ph": "X", "dur": 0.199999998585554, "tid": 1, "ts": 13384127, "pid": 1}
-,{"name": "PostWritingCallback", "ph": "X", "dur": 0.200000000404543, "tid": 1, "ts": 13384162, "pid": 1}
+{"name": "AssetDatabase.SaveAssets", "ph": "X", "dur": 1103.2, "tid": 1, "ts": 122, "pid": 1}
+,{"name": "SwitchToBuildPlatform", "ph": "X", "dur": 25.3999999999999, "tid": 1, "ts": 3019, "pid": 1}
+,{"name": "RebuildSpriteAtlasCache", "ph": "X", "dur": 1.40000000000029, "tid": 1, "ts": 3068, "pid": 1}
+,{"name": "BuildPlayerScripts", "ph": "X", "dur": 3072694.7, "tid": 1, "ts": 3088, "pid": 1}
+,{"name": "PostScriptsCallback", "ph": "X", "dur": 1.89999999975043, "tid": 1, "ts": 3075890, "pid": 1}
+,{"name": "CalculateSceneDependencyData", "ph": "X", "dur": 1641294.3, "tid": 1, "ts": 3075934, "pid": 1}
+,{"name": "Calculate Scene Dependencies", "ph": "X", "dur": 1641291.2, "tid": 1, "ts": 3075936, "pid": 1, "args": {"0":"ad1ce70d586544a47b9202d63ee6b2b1"}}
+,{"name": "CalculateCustomDependencyData", "ph": "X", "dur": 2.90000000040891, "tid": 1, "ts": 4717358, "pid": 1}
+,{"name": "CalculateAssetDependencyData", "ph": "X", "dur": 5.69999999970605, "tid": 1, "ts": 4717429, "pid": 1}
+,{"name": "Gathering Cache Entries to Load", "ph": "X", "dur": 1.90000000020518, "tid": 1, "ts": 4717432, "pid": 1}
+,{"name": "Gathering Cache Entries to Save", "ph": "X", "dur": 0.399999999899592, "tid": 1, "ts": 4717434, "pid": 1}
+,{"name": "StripUnusedSpriteSources", "ph": "X", "dur": 0.900000000001455, "tid": 1, "ts": 4717478, "pid": 1}
+,{"name": "PostDependencyCallback", "ph": "X", "dur": 0.399999999899592, "tid": 1, "ts": 4717506, "pid": 1}
+,{"name": "GenerateBundlePacking", "ph": "X", "dur": 332.599999999729, "tid": 1, "ts": 4717541, "pid": 1}
+,{"name": "GenerateBundleCommands", "ph": "X", "dur": 16308, "tid": 1, "ts": 4717927, "pid": 1}
+,{"name": "GenerateSubAssetPathMaps", "ph": "X", "dur": 0.999999999294232, "tid": 1, "ts": 4734320, "pid": 1}
+,{"name": "GenerateBundleMaps", "ph": "X", "dur": 140.300000000025, "tid": 1, "ts": 4734347, "pid": 1}
+,{"name": "Temporary Map Creations", "ph": "X", "dur": 61.9999999998981, "tid": 1, "ts": 4734348, "pid": 1}
+,{"name": "Populate BuildReferenceMaps", "ph": "X", "dur": 1.19999999969878, "tid": 1, "ts": 4734410, "pid": 1}
+,{"name": "Populate BuildUsageTagSet", "ph": "X", "dur": 76.2999999997191, "tid": 1, "ts": 4734411, "pid": 1}
+,{"name": "PostPackingCallback", "ph": "X", "dur": 0.200000000404543, "tid": 1, "ts": 4734523, "pid": 1}
+,{"name": "WriteSerializedFiles", "ph": "X", "dur": 1993493.6, "tid": 1, "ts": 4734574, "pid": 1}
+,{"name": "RunCachedOperation", "ph": "X", "dur": 1993486.6, "tid": 1, "ts": 4734580, "pid": 1, "args": {"0":"Total Entries: 1, Processed: 1, Cached: 0"}}
+,{"name": "Process Entries", "ph": "X", "dur": 1993470.1, "tid": 1, "ts": 4734581, "pid": 1}
+,{"name": "Writing SceneBundleWriteOperation", "ph": "X", "dur": 1837645, "tid": 1, "ts": 4734675, "pid": 1, "args": {"0":"CAB-7ca3da47d9a4aaa0317e5621631e2596.sharedAssets"}}
+,{"name": "Process Cached Entries", "ph": "X", "dur": 1.59999999959837, "tid": 1, "ts": 6728053, "pid": 1}
+,{"name": "ArchiveAndCompressBundles", "ph": "X", "dur": 6043214, "tid": 1, "ts": 6728248, "pid": 1}
+,{"name": "CreateWorkItems", "ph": "X", "dur": 14.5000000002256, "tid": 1, "ts": 6728253, "pid": 1}
+,{"name": "CopyingCachedFiles", "ph": "X", "dur": 0.500000000101863, "tid": 1, "ts": 6728268, "pid": 1}
+,{"name": "ArchiveItems", "ph": "X", "dur": 6043099.5, "tid": 1, "ts": 6728269, "pid": 1, "args": {"0":"Archiving 1 Bundles"}}
+,{"name": "ArchiveSingleItem", "ph": "X", "dur": 6042770.7, "tid": 76, "ts": 6728297, "pid": 1, "args": {"0":"nahahari_0"}}
+,{"name": "Copying From Cache", "ph": "X", "dur": 13533.8000000002, "tid": 76, "ts": 12757533, "pid": 1, "args": {"0":"C:\\Users\\yoshida_kaito\\Documents\\GitHub\\spatial\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\Temp\\ContentBuildData\\nahahari_0 -> C:\\Users\\yoshida_kaito\\Documents\\GitHub\\spatial\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\Exports\\WebGL\\nahahari_0"}}
+,{"name": "PostArchiveProcessing", "ph": "X", "dur": 70.9999999999127, "tid": 1, "ts": 12771387, "pid": 1}
+,{"name": "AppendBundleHash", "ph": "X", "dur": 1.0999999994965, "tid": 1, "ts": 12771554, "pid": 1}
+,{"name": "GenerateLinkXml", "ph": "X", "dur": 0.29999999969732, "tid": 1, "ts": 12771582, "pid": 1}
+,{"name": "PostWritingCallback", "ph": "X", "dur": 0.200000000404543, "tid": 1, "ts": 12771615, "pid": 1}
 ]
 }
